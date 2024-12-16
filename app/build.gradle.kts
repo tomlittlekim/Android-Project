@@ -4,13 +4,13 @@ plugins {
 }
 
 android {
-    namespace = "com.example.androidlab"
-    compileSdk = 34
+    namespace = "com.nathen.androidlab"
+    compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.androidlab"
-        minSdk = 24
-        targetSdk = 34
+        applicationId = "com.nathen.androidlab"
+        minSdk = 21
+        targetSdk = 35
         versionCode = 1
         versionName = "1.0"
 
@@ -33,6 +33,7 @@ android {
     kotlinOptions {
         jvmTarget = "11"
     }
+    buildToolsVersion = "34.0.0"
 }
 
 dependencies {
