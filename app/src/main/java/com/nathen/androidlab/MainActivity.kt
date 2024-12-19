@@ -10,6 +10,6 @@ class MainActivity : AppCompatActivity() {
         // 화면 출력 XML 명시
         setContentView(R.layout.activity_main)
         // id값으로 뷰 객체 획득
-        val textView1 = findViewById<TextView>(R.id.text1)
+//        val textView1 = findViewById<TextView>(R.id.text1)
     }
 }
