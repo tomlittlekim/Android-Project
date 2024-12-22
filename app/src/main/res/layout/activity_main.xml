@@ -8,12 +8,38 @@
     android:layout_height="wrap_content"
     android:text="버튼 A"
     android:backgroundTint="#0000ff"
-    android:padding="30dp" />
+    android:padding="30dp"
+    android:visibility="visible" />
   <Button
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:text="버튼 B"
     android:backgroundTint="#ff0000"
     android:paddingBottom="50dp"
-    android:layout_marginLeft="50dp" />
+    android:layout_marginLeft="50dp"
+    android:visibility="gone" />
+  <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="버튼 E"
+    android:backgroundTint="#ff0000"
+    android:paddingBottom="50dp"
+    android:layout_marginLeft="50dp"
+    android:visibility="visible" />
+  <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="버튼 C"
+    android:backgroundTint="#ff0000"
+    android:paddingBottom="50dp"
+    android:layout_marginLeft="50dp"
+    android:visibility="invisible" />
+  <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="버튼 D"
+    android:backgroundTint="#ff0000"
+    android:paddingBottom="50dp"
+    android:layout_marginLeft="50dp"
+    android:visibility="visible" />
 </LinearLayout>
