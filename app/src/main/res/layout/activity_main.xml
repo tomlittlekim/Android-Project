@@ -3,20 +3,12 @@
   android:layout_width="match_parent"
   android:layout_height="match_parent"
   android:orientation="horizontal">
-  <TextView
-    android:layout_width="match_parent"
+  <ImageView
+    android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:text="@string/long_text"
-    android:singleLine="true"
-    android:ellipsize="middle" />
-  <View
-    android:layout_width="match_parent"
-    android:layout_height="2dp"
-    android:background="#000000" />
-  <TextView
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:text="@string/long_text"
-    android:maxLines="3"
-    android:ellipsize="end" />
+    android:maxWidth="100dp"
+    android:maxHeight="100dp"
+    android:adjustViewBounds="true"
+    android:background="#ff0000"
+    android:src="@drawable/lake_1" />
 </LinearLayout>
