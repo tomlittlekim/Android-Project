@@ -7,6 +7,8 @@ android {
     namespace = "com.nathen.androidlab"
     compileSdk = 35
 
+    viewBinding.isEnabled = true
+
     defaultConfig {
         applicationId = "com.nathen.androidlab"
         minSdk = 24
