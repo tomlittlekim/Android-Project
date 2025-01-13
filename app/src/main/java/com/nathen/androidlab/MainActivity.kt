@@ -15,11 +15,13 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         // 뷰 객체 이용
-        binding.visibleBtn.setOnClickListener {
-            binding.targetView.visibility = View.VISIBLE
+        binding.button.setOnClickListener {
+            binding.button.visibility = View.INVISIBLE
+            binding.imageView.visibility = View.VISIBLE
         }
-        binding.invisibleBtn.setOnClickListener {
-            binding.targetView.visibility = View.INVISIBLE
+        binding.imageView.setOnClickListener {
+            binding.button.visibility = View.VISIBLE
+            binding.imageView.visibility = View.INVISIBLE
         }
     }
 }
